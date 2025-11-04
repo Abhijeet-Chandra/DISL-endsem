@@ -1,0 +1,109 @@
+$date
+	Tue Nov 04 15:01:53 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module johnson8_tb $end
+$var wire 8 ! T [7:0] $end
+$var wire 4 " Q [3:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ reset $end
+$scope module johnson8_ins $end
+$var wire 1 # clk $end
+$var wire 1 $ reset $end
+$var wire 8 % T [7:0] $end
+$var reg 4 & Q [3:0] $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 ' i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx '
+b0 &
+b1 %
+1$
+0#
+b0 "
+b1 !
+$end
+#2
+b10 !
+b10 %
+b1000 "
+b1000 &
+b11111111111111111111111111111111 '
+0$
+1#
+#4
+0#
+#6
+b100 !
+b100 %
+b1100 "
+b1100 &
+b11111111111111111111111111111111 '
+1#
+#8
+0#
+#10
+b1000 !
+b1000 %
+b1110 "
+b1110 &
+b11111111111111111111111111111111 '
+1#
+#12
+0#
+#14
+b10000 !
+b10000 %
+b1111 "
+b1111 &
+b11111111111111111111111111111111 '
+1#
+#16
+0#
+#18
+b100000 !
+b100000 %
+b111 "
+b111 &
+b11111111111111111111111111111111 '
+1#
+#20
+0#
+#22
+b1000000 !
+b1000000 %
+b11 "
+b11 &
+b11111111111111111111111111111111 '
+1#
+#24
+0#
+#26
+b10000000 !
+b10000000 %
+b1 "
+b1 &
+b11111111111111111111111111111111 '
+1#
+#28
+0#
+#30
+b1 !
+b1 %
+b0 "
+b0 &
+b11111111111111111111111111111111 '
+1#
