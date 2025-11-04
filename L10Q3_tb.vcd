@@ -1,0 +1,158 @@
+$date
+	Wed Nov 05 00:00:26 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module L10Q3_tb $end
+$var wire 3 ! out [2:0] $end
+$var wire 1 " C $end
+$var wire 1 # B $end
+$var wire 1 $ A $end
+$var reg 1 % clk $end
+$var reg 1 & reset $end
+$scope module L10Q3_ins $end
+$var wire 1 ' Ta $end
+$var wire 1 ( Tb $end
+$var wire 1 ) Tc $end
+$var wire 1 % clk $end
+$var wire 1 & reset $end
+$var wire 3 * out [2:0] $end
+$var wire 1 " C $end
+$var wire 1 # B $end
+$var wire 1 $ A $end
+$scope module TFF1 $end
+$var wire 1 ' T $end
+$var wire 1 % clk $end
+$var wire 1 & reset $end
+$var reg 1 $ Q $end
+$upscope $end
+$scope module TFF2 $end
+$var wire 1 ( T $end
+$var wire 1 % clk $end
+$var wire 1 & reset $end
+$var reg 1 # Q $end
+$upscope $end
+$scope module TFF3 $end
+$var wire 1 ) T $end
+$var wire 1 % clk $end
+$var wire 1 & reset $end
+$var reg 1 " Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 *
+1)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+b0 !
+$end
+#2
+1&
+1%
+#4
+0)
+b1 !
+b1 *
+1(
+1"
+0%
+#6
+1%
+#8
+b11 !
+b11 *
+1'
+1#
+0%
+#10
+1%
+#12
+0'
+0#
+b101 !
+b101 *
+1$
+0%
+#14
+1%
+#16
+1)
+b111 !
+b111 *
+1'
+1#
+0%
+#18
+1%
+#20
+0(
+0"
+0'
+0#
+b0 !
+b0 *
+0$
+0%
+#22
+1%
+#24
+0)
+b1 !
+b1 *
+1(
+1"
+0%
+#26
+1%
+#28
+b11 !
+b11 *
+1'
+1#
+0%
+#30
+1%
+#32
+1$
+b101 !
+b101 *
+0'
+0#
+0%
+#34
+1%
+#36
+1)
+b111 !
+b111 *
+1'
+1#
+0%
+#38
+1%
+#40
+0$
+0'
+0#
+b0 !
+b0 *
+0(
+0"
+0%
+#42
+1%
