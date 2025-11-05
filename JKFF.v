@@ -3,7 +3,7 @@ module JKFF(J,K,clk,Q,reset);
 input J,K,clk,reset;
 output reg Q;
 
-always @(negedge clk,posedge reset)begin
+always @(posedge clk,posedge reset)begin
     if(reset) Q<=0;
     else begin
         if(J==0&&K==0) Q<=Q;
